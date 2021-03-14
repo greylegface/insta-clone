@@ -1,6 +1,5 @@
 /* eslint-disable no-console */
-import React, { useState, useContext } from 'react';
-import { useEffect } from 'react/cjs/react.development';
+import React, { useState, useContext, useEffect } from 'react';
 import { getPhotos, getUserByUserId } from '../services/firebase';
 
 import UserContext from '../context/user';
